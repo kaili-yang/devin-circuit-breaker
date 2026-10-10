@@ -29,6 +29,6 @@ test('hooks.json references bin/hook.js via ${DEVIN_PLUGIN_ROOT} for every event
 test('every skill has name + description frontmatter', () => {
   for (const d of fs.readdirSync(path.join(root, 'skills'))) {
     const md = fs.readFileSync(path.join(root, 'skills', d, 'SKILL.md'), 'utf8');
-    assert.match(md, /^---\nname: \S+\ndescription: .+\n---/, d);
+    assert.match(md, /^---\r?\nname: \S+\r?\ndescription: .+\r?\n---/, d);
   }
 });
