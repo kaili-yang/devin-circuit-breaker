@@ -1,0 +1,5 @@
+node_modules/
+*.log
+.DS_Store
+# per-session state is written under ~/.config/devin/circuit-breaker, never here
+.devin/circuit-breaker.json

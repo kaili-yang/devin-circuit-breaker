@@ -1,0 +1,16 @@
+{
+  "name": "devin-circuit-breaker",
+  "version": "2.0.0",
+  "description": "Devin plugin: trips on dead loops (identical failing calls), estimated cost/token caps, token rate spikes and session time limits. Zero dependencies, zero build.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/kaili-yang/devin-circuit-breaker.git" },
+  "homepage": "https://github.com/kaili-yang/devin-circuit-breaker#readme",
+  "engines": { "node": ">=18" },
+  "bin": { "circuit-breaker": "bin/cli.js" },
+  "scripts": {
+    "test": "node --test 'tests/*.test.js'",
+    "test:harness": "node tests/harness.js",
+    "test:all": "node --test 'tests/*.test.js' && node tests/harness.js"
+  },
+  "keywords": ["devin", "plugin", "hooks", "circuit-breaker", "guardrails", "loop-detection", "cost-cap"]
+}

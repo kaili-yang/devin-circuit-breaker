@@ -1,0 +1,10 @@
+{
+  "name": "circuit-breaker",
+  "version": "2.0.0",
+  "description": "Circuit breaker for Devin sessions: trips on dead loops (identical failing tool calls), estimated cost/token caps, token rate spikes, and session time limits. Configurable per project or globally.",
+  "author": { "name": "Kelly Yang" },
+  "license": "MIT",
+  "homepage": "https://github.com/kaili-yang/devin-circuit-breaker",
+  "repository": "https://github.com/kaili-yang/devin-circuit-breaker",
+  "keywords": ["guardrails", "circuit-breaker", "loop-detection", "cost-cap", "tokens"]
+}

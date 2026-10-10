@@ -1,0 +1,17 @@
+{
+  "SessionStart": [
+    { "matcher": "", "hooks": [{ "type": "command", "command": "node \"${DEVIN_PLUGIN_ROOT}/bin/hook.js\"", "timeout": 5 }] }
+  ],
+  "PreToolUse": [
+    { "matcher": "", "hooks": [{ "type": "command", "command": "node \"${DEVIN_PLUGIN_ROOT}/bin/hook.js\"", "timeout": 5 }] }
+  ],
+  "PostToolUse": [
+    { "matcher": "", "hooks": [{ "type": "command", "command": "node \"${DEVIN_PLUGIN_ROOT}/bin/hook.js\"", "timeout": 5 }] }
+  ],
+  "UserPromptSubmit": [
+    { "matcher": "", "hooks": [{ "type": "command", "command": "node \"${DEVIN_PLUGIN_ROOT}/bin/hook.js\"", "timeout": 5 }] }
+  ],
+  "SessionEnd": [
+    { "matcher": "", "hooks": [{ "type": "command", "command": "node \"${DEVIN_PLUGIN_ROOT}/bin/hook.js\"", "timeout": 5 }] }
+  ]
+}
